@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Vazir-Black';
+  src: url('../fonts/Vazir.woff');
+  src: url('../fonts/Vazir.woff2');
+}
+
+@font-face {
+  font-family: 'Vazir-Black-Bold';
+  src: url('../fonts/Vazir-Bold.woff');
+  src: url('../fonts/Vazir-Bold.woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: burlywood;
+}
+
+.box {
+  position: absolute;
+  top: 10px;
+  right: 4px;
+  display: flex;
+  background: #fff;
+  padding: 10px;
+}
+
+.box a {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  text-indent: -10000px;
+}
+
+#red {
+  background: #f23535;
+}
+
+#blue {
+  background: #4287f5;
+}
+
+#green {
+  background: #5ce83c;
+}
+
+#yellow {
+  background: #fffc4a;
+}
+
+#orange {
+  background: #ffa84a;
+}
+
+#purple {
+  background: #bd4aff;
+}
